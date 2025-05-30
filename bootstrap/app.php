@@ -35,10 +35,10 @@ return Application::configure(basePath: dirname(__DIR__))
             }
         });
 
-//        $exceptions->render(function (Throwable $e, Request $request) {
-//            return response()->json([
-//                'code' => Response::HTTP_INTERNAL_SERVER_ERROR,
-//                'message' => 'Internal server error.',
-//            ], 500);
-//        });
+        $exceptions->render(function (Throwable $e, Request $request) {
+            return response()->json([
+                'code' => Response::HTTP_INTERNAL_SERVER_ERROR,
+                'message' => 'Internal server error.',
+            ], 500);
+        });
     })->create();

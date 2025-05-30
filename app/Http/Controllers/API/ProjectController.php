@@ -59,7 +59,6 @@ class ProjectController extends Controller
             return Response::responseSuccess(__('messages.success'));
         } catch (\Throwable $e) {
             DB::rollback();
-            dd($e->getMessage());
 
             return Response::responseMessage(__('messages.error'));
         }
