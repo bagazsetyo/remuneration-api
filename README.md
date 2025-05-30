@@ -84,18 +84,9 @@ Perhitungan berdasarkan jumlah kontribusi jam dalam suatu project. Dengan menggu
     - Edit Employee Details
     - View Employee Summary
 3. Create New Project
-    - Enter Project Details
-    - Set Additional Charges
+    - Enter Project Details 
+    - Assign Employees to Project
     - Save Project
-4. Assign Employees to Project
-    - Select Employees
-    - Set Join Date & Hourly Rate
-    - Add to Project
-5. Complete Project
-    - Mark as Completed
-    - Lock Data from Changes
-    - Generate Final Report
-
 ---
 
 ## Setup Instructions
