@@ -70,7 +70,7 @@ Perhitungan berdasarkan jumlah kontribusi jam dalam suatu project. Dengan menggu
 ---
 
 ## Database Design (ERD)
-![image](https://github.com/bagazsetyo/remuneration/blob/master/public/erd.PNG)
+![image](https://github.com/bagazsetyo/remuneration/blob/main/public/erd.PNG)
 
 ---
 
